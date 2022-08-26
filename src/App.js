@@ -4,7 +4,7 @@ import { CenteredLayout } from './Components/CenteredLayout';
 import { CenteredLayoutBody } from './Components/CenteredLayoutBody';
 import { Header } from './Components/Header/Header';
 import { NewProducts } from './Components/NewProducts';
-import { Stocks } from './Components/Stocks';
+import { Promotions } from './Components/Promotions';
 import { Info } from './Components/Info'
 import { Offer } from './Components/Offer/Offer'
 import { Subscription } from './Components/Offer/Subscription';
@@ -34,7 +34,7 @@ function App() {
               title: 'Nike Exclusive'
             }}
           />
-          <Stocks />
+          <Promotions />
           <Categories />
           <div style={{ borderBottom: '1px solid #C4C4C4' }}>
           </div>
