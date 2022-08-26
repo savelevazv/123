@@ -23,7 +23,7 @@ const cardsInfo = [
 export const Promotions = () => {
     return (
         <div className="promotions--container">
-            <h2  style={{margin:'48px 0 30px 0'}} className="font-style36">Акции</h2>
+            <h2 style={{ margin: '48px 0 30px 0' }} className="font-style36">Акции</h2>
             <div className="promotions--cards--container">
                 {cardsInfo.map((item) => {
                     return (
